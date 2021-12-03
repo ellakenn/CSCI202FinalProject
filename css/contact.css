@@ -33,6 +33,11 @@ a:hover{
   color:white;
 }
 
+.icons{
+  margin:5px;
+  width: 1.5em;
+  height:auto;
+}
 
 .content {
   margin-left: 180px;

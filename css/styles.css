@@ -35,6 +35,11 @@ a:hover{
   color:white;
 }
 
+.icons{
+  margin:5px;
+  width: 1.5em;
+  height:auto;
+}
 
 .headingDiv {
   padding: 0px;
@@ -68,14 +73,11 @@ body {
 }
 
 .content{
-
   margin-left: 180px;
-
-
 }
 
 /* fade in css */
-/* 
+/*
 * {
   box-sizing: border-box;
 }
