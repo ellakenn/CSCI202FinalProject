@@ -44,10 +44,12 @@ a:hover{
 
 .heading{
   margin-left: 180px;
-
   display: flex;
   justify-content: center;
-
+  font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 
 body {
