@@ -34,9 +34,12 @@ a:hover{
 }
 
 
-
-
-/* constant characteristics of the pictures */
 .content {
   margin-left: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+
 }

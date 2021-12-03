@@ -37,11 +37,9 @@ a:hover{
 
 
 /* constant characteristics of the pictures */
-
 .content {
   margin-left: 180px;
 }
-
 
 .pics{
   display: flex;

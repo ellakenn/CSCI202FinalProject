@@ -40,6 +40,7 @@ a:hover{
   padding: 0px;
   display: flex;
   justify-content: center;
+  padding-top: 1em;
 }
 
 .heading{
@@ -61,17 +62,31 @@ body {
 
 .container {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-content: center; */
+
 }
 
 .content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   margin-left: 180px;
-  width: 70%;
-  background: white;
+
 
 }
+
+/* fade in css */
+/* 
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+} */
