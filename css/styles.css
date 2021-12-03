@@ -113,13 +113,39 @@ body {
 
 .item {
   width: 75%;
-  height: 30%;
-
+  padding: 2%;
   background: #ccc;
   text-align: center;
-
-  opacity: .1;
   border-radius: 1em;
   margin-bottom: 10%;
+}
 
+.col{
+  width: 20%;
+  height: 20%;
+  padding-bottom: 2em;
+}
+
+.tableLink{
+  margin-bottom:2%;
+  color: black !important;
+  font-size: 1.2em;
+}
+
+.button{
+  border: black solid 1px;
+}
+
+.button:hover{
+  background-color: #ffffff70;
+}
+
+#email{
+  color: dimgray;
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+    max-height: 100%;
 }
