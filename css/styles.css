@@ -36,7 +36,7 @@ a:hover{
 }
 
 
-.content {
+.headingDiv {
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -46,16 +46,32 @@ a:hover{
   margin-left: 180px;
   display: flex;
   justify-content: center;
-  font-family: 'Lora', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Nanum Myeongjo', serif;
   text-align: center;
 }
 
 body {
-  background: url('https://images.squarespace-cdn.com/content/v1/6098a80221f2ee5734695376/f34f50ae-68ed-47be-b433-caeab7794160/IMG_0531.jpg?format=750w') no-repeat center center fixed;
+  background: url("../mainTest1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+  width: 70%;
+  background: white;
+
 }
