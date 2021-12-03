@@ -11,6 +11,10 @@ body{
   transition: 0.5s;
 }
 
+.navTitle{
+  color:#DBD5B5;
+}
+
 .nav-link:active,
 .nav-link:focus,
 .nav-link:hover {
@@ -40,6 +44,10 @@ a:hover{
   height:auto;
 }
 
+audio{
+  width: 180px;
+  margin: 0;
+}
 
 /* constant characteristics of the pictures */
 .content {

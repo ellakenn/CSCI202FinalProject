@@ -11,6 +11,10 @@ body{
   transition: 0.5s;
 }
 
+.navTitle{
+  color:#DBD5B5;
+}
+
 .nav-link:active,
 .nav-link:focus,
 .nav-link:hover {
@@ -38,6 +42,10 @@ a:hover{
   width: 1.5em;
   height:auto;
 }
+audio{
+  width: 180px;
+  margin: 0;
+}
 
 /* for main section */
 
@@ -53,9 +61,14 @@ a:hover{
 
 
 #firstLine{
-  font-size: 2em;
+  font-size: 2.3em;
   padding-bottom: .4em;
 }
+
+p{
+  font-size: 1.2em;
+}
+
 
 #signature{
   text-align: center;
