@@ -1,0 +1,59 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+html,
+body {
+  height: 100%
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color:white;
+}
+
+
+.content {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+  margin-left: 180px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+body {
+  background: url('https://images.squarespace-cdn.com/content/v1/6098a80221f2ee5734695376/f34f50ae-68ed-47be-b433-caeab7794160/IMG_0531.jpg?format=750w') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}

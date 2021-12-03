@@ -1,0 +1,74 @@
+body{
+    background-color: #DBD5B5;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color:white;
+}
+
+/* for main section */
+
+.content {
+  margin-left: 180px;
+  padding: 1em;
+  font-size: 1.1em;
+  display: flex;
+
+
+}
+
+
+
+#firstLine{
+  font-size: 2em;
+  padding-bottom: .4em;
+}
+
+#signature{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.profilePic{
+  width: 25em;
+  height: 100vh;
+
+}
+
+img{
+  width: 16em;
+  height:auto;
+  position: fixed;
+  right: 1em;
+  top: 15%;
+  padding:2px;
+  border: 2px solid black;
+
+}

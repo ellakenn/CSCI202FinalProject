@@ -3,19 +3,77 @@
   <head>
     <meta charset="utf-8">
     <title>About</title>
-    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+
   </head>
+
+
   <body>
-    <p>test</p>
-    <div class="sidebar">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+      <ul class="nav flex-column text-white w-100">
+        <a href="index.html" class="nav-link lead navTitle">
+          Iasis Kennedy Photography
+        </a>
+        <li class="nav-link">
+          <a href="index.html"><span class="mx-2">Home</span></a>
+        </li>
+        <li class="nav-link">
+          <a href="portfolio.html"><span class="mx-2">Portfolio</span></a>
+        </li>
+        <li class="nav-link">
+          <a href="about.html"><span class="mx-2">About</span></a>
+        </li>
+        <li class="nav-link">
+          <a href="contact.html"><span class="mx-2">Contact</span></a>
+        </li>
+      </ul>
     </div>
 
     <div class="content">
-  
+
+
+
+      <div class="bio container">
+          <p class = "display-4" id="firstLine">Since I was little I have always been passionate about capturing the little moments in life.</p>
+
+          <p>I believe that we should make the most of every single day, take things less serious, and live life to the
+          fullest. After all, you only have one life, why not fill it with everything in your wildest dreams? For me,
+          it always was a dream of mine to be a photographer, but for some reason it felt so unattainable for me. Then
+          I asked myself, “Why not? What is stopping you?”, and I realized nothing was stopping me but myself. Photography
+          has allowed me to tap into all of my passions, and combine them into one. For me, it is not just about taking
+          a cool picture, I strive to make genuine connections with others, and leave sessions feeling as though I have
+          made a friend.</p>
+
+        <p>Connection is what I value above all else. Since I picked up my first camera at 13, I have been fascinated with
+          capturing the connection between others, and empowering people to feel most like themselves. Photography has a
+          profound impact on so many people. A singular photo can take you back to the moment you got engaged, celebrated
+          one of your accomplishments, or your first dance with your partner to your favorite song.</p>
+
+        <p>I am passionate about all the little things. The reflection of a dreamy pink sunset on the water, the way  trees
+          slowly sway in the breeze, the smell of a late night windows down summer drive, the way someone brushes the hair
+          out of your face, the moon, the feeling of holding hands for the first time, gently rubbing your thumb over your
+          partner's hand, the smallest kiss on the cheek… everything. I want you to look at your photos and remember the
+          little moments.</p>
+
+        <p>My goal is for us to inspire each other, me giving you space and time to dedicate to your love or accomplishment,
+          and you telling me your story - allowing us to create something beautiful together. I want you to walk away from
+          this experience feeling empowered, full of love, happiness and good energy. I want you to look back at the experience
+          and photos and feel something.</p>
+
+        <p id="signature"><em>- Iasis</em></p>
+      </div>
+
+      <div class="profilePic container">
+        <img src="allPics/aboutProfilePic.jpg" alt="">
+      </div>
+
     </div>
+
+
+    <script src="aboutScript.js"></script>
   </body>
+
+
 </html>

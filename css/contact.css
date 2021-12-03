@@ -1,0 +1,42 @@
+body{
+    background-color: #DBD5B5;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color:white;
+}
+
+
+
+
+/* constant characteristics of the pictures */
+.content {
+  margin-left: 180px;
+}
