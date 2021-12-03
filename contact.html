@@ -1,6 +1,4 @@
-<audio controls autoplay>
-  <source src="StillAwakeMusic.mp3" type="audio/mpeg">
-</audio><!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,7 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/contact.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   </head>
 
   <body>
@@ -43,36 +42,50 @@
         </audio>
       </div>
 
+
     </div>
 
     <div class="content container ">
 
-      <h3>Contact Form</h3>
+      <h1 id = "contactHeader">Contact Form</h1>
 
-      <div class="container">
+      <div class="container-fluid contactForm">
+
         <form action="mailto:padmaluminous@gmail.com" method="post" enctype="text/plain">
-          <div class="">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-md-auto">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
           </div>
-
-          <div class="">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-md-auto">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
           </div>
-
-          <div class="">
-            <label for="location">Location (Must be in USA)</label>
-            <input type="text" id="location" name="loction1" placeholder="City, State">
+          <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <label for="location">Location (Must be in USA)</label>
+            </div>
+            <div class="col-md-auto">
+              <input type="text" id="location" name="loction1" placeholder="City, State">
+            </div>
           </div>
-
-          <div class="">
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+          <div class="row justify-content-center">
+            <div class="col-md-auto">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-md-auto">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height: 8em; width: 15em;"></textarea>
+            </div>
           </div>
-
-          <input type="submit" value="Submit">
+          <input type="submit" class ="btn btn-light" value="Submit">
         </form>
       </div>
     </div>

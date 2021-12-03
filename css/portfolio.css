@@ -45,14 +45,17 @@ a:hover{
 }
 
 audio{
-  width: 180px;
+  max-width: 100%;
   margin: 0;
 }
 
 /* constant characteristics of the pictures */
 .content {
-  margin-left: 180px;
+  margin-left: 15%;
+  width: 85%;
 }
+
+
 
 .pics{
   display: flex;
