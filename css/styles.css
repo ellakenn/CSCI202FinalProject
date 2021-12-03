@@ -58,7 +58,7 @@ a:hover{
 }
 
 body {
-  background: url("../mainTest1.jpg") no-repeat center center fixed;
+  background: url("../allPics/mainTest1.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -77,10 +77,8 @@ body {
 }
 
 /* fade in css */
-/*
-* {
-  box-sizing: border-box;
-}
+
+
 
 .item {
   width: 200px;
@@ -91,4 +89,4 @@ body {
   text-align: center;
   color: #FFF;
   font-size: 3em;
-} */
+}
